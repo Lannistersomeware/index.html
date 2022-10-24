@@ -1,7 +1,6 @@
 Hello 
 <br>
 đây là mục giải đáp thắc mắc
-
 mọi người đều không có thắc mắc
 
 mọi người có 1 thắc mắc
