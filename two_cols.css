@@ -1,0 +1,122 @@
+body{
+font: 100%/125% “Times New Roman”, sans-serif;
+margin-right: 10%;
+margin-left: 10%;
+padding: 0px;
+}
+font: <font-size>, <font-family>;
+#wrapper{
+margin: 10px;
+padding: 0px;
+width: 100%;
+border-radius: 8px;
+}
+#header {
+background-color: lightgrey;
+border-radius: 8px;
+height: 100px;
+margin-bottom: 25px;
+}
+#header p{
+color: darkblue;
+font-family: Chalkduster;
+font-size: 2rem;
+text-align: center;
+padding-top: 40px;
+}
+#footer {
+clear: both;
+text-align: center;
+margin-top: 25px;
+background-color: lightgrey;
+border-radius: 6px;
+}
+#footer p{
+font-size: 10pt;
+font-style: italic;
+color: blue;
+padding: 3px;
+}
+#left {
+float: left;
+width: 25%;
+}
+#left ul{
+background-color: lightskyblue;
+width: 80%;
+padding-top: 10;
+padding-bottom: 10;
+margin: 0;
+padding-left: 0;
+list-style-type: none;
+border: 1px solid blueviolet;
+border-radius: 10px;
+}
+#left li a{
+padding-top: 10;
+padding-bottom: 10;
+padding-left: 10;
+display: block;
+text-decoration: none;
+}
+#left li a:hover:not(.active){
+background-color: black;
+color: white;
+border-radius: 8px;
+}
+#left li a.active{
+background-color: blue;
+color: white;
+/* border-radius: 8px;
+cursor: auto;*/
+}
+#right {
+float: right;
+width: 75%;
+}
+#right p{
+margin-right: 0px;
+}
+#right img{
+margin: auto;
+display: block;
+}
+
+#right table{
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+margin-bottom: 50px;
+}
+#right table td, #right table th {
+border: 2px solid grey;
+padding: 8px;
+}
+#right table tr:nth-child(even){
+background-color: #f2f2f2;
+}
+#right table tr:hover {background-color: #ddd;}
+#right table th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #04AA6D;
+color: white;
+}
+#right table td a{
+text-decoration: none;
+color: blue;
+font-style: italic;
+}
+.box {
+float: left;
+width: 140;
+height: 100px;
+border-radius: 8px;
+background-color: lightblue;
+}
+.box img{
+margin-left: 20px;
+z-index: 999;
+cursor: progress;
+}
