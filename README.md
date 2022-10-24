@@ -1,6 +1,6 @@
 Hello 
 <br>
-- đây là mục giải đáp thắc mắc<br>
+Đây là mục giải đáp thắc mắc<br>
 - mọi người đều không có thắc mắc<br>
 - mọi người có 1 thắc mắc<br>
 - mọi người có abc thắc mắc<br>
