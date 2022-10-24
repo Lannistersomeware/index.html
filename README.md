@@ -11,5 +11,8 @@ Hello
 - mọi người có rất nhiều/ít thắc mắc<br>
 - mọi người có không ít/nhiều thắc mắc<br>
 
-Feel free to contact us via email ducb1913016@student.ctu.edu.vn or 0939.873.193 for additional information.
+Feel free to contact us via <br>
+- ducb1913016@student.ctu.edu.vn - email <br>
+- 0939 873 193 - tel <br>
+For additional information.
 
