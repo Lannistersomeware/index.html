@@ -1,4 +1,4 @@
-Hello 
+Xin chào 
 <br>
 Đây là mục giải đáp thắc mắc<br>
 - mọi người đều không có thắc mắc<br>
