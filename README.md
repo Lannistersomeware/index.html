@@ -8,8 +8,9 @@ Xin chào
 - một người có x thắc mắc<br>
 - một người không có y thắc mắc<br>
 - một trong số mọi người có 1 thắc mắc<br>
-- mọi người có rất nhiều/ít thắc mắc<br>
-- mọi người có không ít/nhiều thắc mắc<br>
+- tất cả mọi người có 1 thắc mắc <br>
+- mọi người có rất nhiều/ rất ít thắc mắc<br>
+- mọi người có không ít/ không nhiều thắc mắc<br>
 
 Feel free to contact us via <br>
 - ducb1913016@student.ctu.edu.vn - email <br>
