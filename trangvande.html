@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bảng điều khiên</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>	
+        <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <ul>
+<!-- Thanh công cụ -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>IOT</b> Lò ấp trứng </a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    <li>  <a href="trangchu.html" class="w3-bar-item w3-button">Trang chủ</a></li>
+     <li> <a href="trangthanhvien.html" class="w3-bar-item w3-button">Trang thành viên</a></li>
+     <li> <a href="trangvande.html" class="w3-bar-item w3-button">Trang vấn đề</a></li>
+     <li> <a href="tranglienhe.html" class="w3-bar-item w3-button">Liên hệ</a></li>
+    </div>
+  </div>
+</div>
+        </ul>
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <h1><center><strong>BẢNG ĐIỀU KHIỂN</strong></center> </h1>
+     <center>   <h2>Chọn chế độ </h2>
+        <p>  1. Full-auto: Hệ thống tự động đọc nhiệt độ môi trường, khi nhiệt độ > 38, quạt làm mát được bật, khi nhiệt độ < 36, đèn nhiệt được bật. </p>
+        <p>  2. Sub-auto: Hệ thống trực tiếp nhận nhiệt độ do người dùng set, khi nhiệt độ vượt quá biên độ trên hoặc dưới, các thiết bị chấp hành tự động làm việc</p>
+        <p>  3. Manual: Người dùng trực tiếp điều khiển các thiết bị chấp hành qua giao diện Web</p>
+        
+
+<div class="button">
+  <button class="dropbtn">Chế độ</button>
+  <div class="value" id="SelectMode"></div>
+  <input type="option" id="Mode">
+
+  </div>
+</div> </center>
+<br>
+        <div class = "wrapper">
+            <a class = "icon1" >
+			<center>	 <i class="fas fa-4x fa-tv"></i> </center>
+			</a>
+            <br>
+            <center>
+            <div class="progress"> <p>Nhiệt độ đặt</p>
+                <div class="Value" id="SelectValueRed"></div>		<!-- indicate value to website-->
+                <input class="slider" type="range" min="0" max="50" value="0" id="sliderRed"> <!-- create slider-->
+                
+            </div>
+            <div class="progress"> <p> Nhiệt độ test</p>
+                <div class="Value" id="SelectValueGreen"></div>		<!-- indicate value to website-->
+                <input class="slider" type="range" min="0" max="100" value="0" id="sliderGreen"> <!-- create slider-->
+                
+            </div>
+            <div class="progress"><p>Nhiệt độ môi trường</p>
+                <div class="Value" id="SelectValueBlue"></div>		<!-- indicate value to website-->
+                <input class="slider" type="range" min="0" max="50" value="0" id="sliderBlue"> <!-- create slider-->
+                
+            </div>
+            </center>
+            <center> 
+            <script src="script.js"></script>
+            <div class="progress">
+                <p>Đèn</p>
+                            <div class= "toggle-btn" id="unact">
+                                <div class= "inner-circle">
+                    
+                                </div>
+                            </div>
+                            <div class= "toggle-btn active" id="act" >
+                                <div class= "inner-circle">
+                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="progress">
+                            <p>Quạt</p>
+                            <div class= "toggle-btn1" id="unact1">
+                                <div class= "inner-circle">
+                    
+                                </div>
+                            </div>
+                            <div class= "toggle-btn1 active" id="act1" >
+                                <div class= "inner-circle">
+                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="progress">
+                            <p>Máy đảo trứng</p>
+                            <div class= "toggle-btn2" id="unact2">
+                                <div class= "inner-circle">
+                    
+                                </div>
+                            </div>
+                            <div class= "toggle-btn2 active" id="act2" >
+                                <div class= "inner-circle">
+                    
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>	
+                    </div>
+
+    
+
+        </div>
+    </body>
+</html>
